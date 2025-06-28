@@ -2,7 +2,7 @@ import monkeypatch_typing
 import requests
 from pytoniq_core.crypto.keys import mnemonic_to_private_key
 from tonutils.client import ToncenterV2Client
-from tonutils.wallet import WalletV5R1
+from tonutils.wallet import WalletV5R1 # your wallet version
 import asyncio
 
 TONCENTER_API_KEY = "" # api key from https://t.me/tonapibot
